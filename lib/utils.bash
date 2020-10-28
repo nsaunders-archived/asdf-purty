@@ -59,7 +59,7 @@ install_version() {
     rm "$release_file"
 
     test -x "$install_path/purty" || fail "Expected $install_path/purty to be executable."
-  
+
     mkdir "$install_path/bin"
     mv "$install_path/purty" "$install_path/bin"
 
